@@ -38,6 +38,10 @@ To package the application I have used the sbt-native-packager (universal plugin
 
 (Run this command in the location -> ShapeMaker/CliParser/target/scala-2.12)
 
+### To create a native-image:
+
+> $GRAAL_HOME/native-image-jar file-name.jar
+
 ### Available flags :
 
 > ./cliparser -t    : prints a triangle
